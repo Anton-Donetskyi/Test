@@ -1,3 +1,8 @@
+.page-header {
+	overflow: hidden;
+	height: 90px;
+}
+
 .logo {
 	float: left;
 	width: 178px;
@@ -6,8 +11,8 @@
 }
 
 .nav {
-	padding: 51px 138px 0px 0;
-	overflow: hidden;
+	height: 90px;
+	padding:  0 138px 0;
 
 	&-list {
 		margin: 0;
@@ -26,10 +31,18 @@
 			
 		font-size: 20.35px;
 		line-height: 1;
+
+		height: 47px;
+    	padding-top: 40px;
 			
 		&:first-child {
 			padding-left: 0;
 		}
+
+		&:active,
+		&:hover {
+			border-bottom: 3px solid #5094f2;
+		}		
 	}
 
 	&-link {
@@ -39,7 +52,15 @@
 		&:hover,
 		&:active {
 			color: #f5b61a;
+			
 		}
 	}
 }
 
+    /*padding: 0 0 0 38px;
+    display: inline-block;
+    font-size: 20.35px;
+    line-height: 1;
+    height: 48px;
+    padding-top: 40px;
+    border-bottom: 3px solid blue*/

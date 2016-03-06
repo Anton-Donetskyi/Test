@@ -1,0 +1,35 @@
+.wrapper{
+	width: 100%;
+	min-height: 100%;
+}
+
+.slider {
+	background-image: url("../images/content/banner.jpg");
+}
+
+.swiper-slide {
+	height: 577px;
+	
+	transition: height ease 350ms;
+	
+	color: #fff;
+	
+}
+
+.iphone {
+	width: 345px; 
+	height: 436px;
+}
+
+
+
+.slide-title {
+	width: 395px;
+	height: 125px;
+
+	font-size: 42.5px;
+
+	&-little {
+		font-size: 26.5px; 
+	}
+}
